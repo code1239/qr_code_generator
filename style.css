@@ -1,0 +1,79 @@
+*, html,  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgba(175, 24, 4, 0.767);
+    color: white;
+}
+
+header div {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 7rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: -.5px;
+}
+
+.logo {
+    flex: 1 2  auto;
+}
+.logo img {
+    width: 200px;
+    display: block;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+
+.form  {
+    flex: 2 1 auto;
+    padding: 2rem ;
+    
+}
+
+.form h1 {
+    margin-bottom: 2rem;
+}
+
+.form p {
+    line-height: 1.5;
+}
+
+.form form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form form > * {
+    margin-top: 1.2rem;
+    padding: .75rem 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+.form form button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(14, 13, 34, 0.726);
+    color: white;
+}
+
+#omer {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    padding-right: 2.75rem;
+    
+}
